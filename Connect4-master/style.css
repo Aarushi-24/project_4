@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(189, 205, 236);
+}
+
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(51, 163, 194);
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: rgba(248, 241, 207, 0.865);
+    border-radius: 50%;
+    border: 5px solid rgb(6, 63, 53);
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
